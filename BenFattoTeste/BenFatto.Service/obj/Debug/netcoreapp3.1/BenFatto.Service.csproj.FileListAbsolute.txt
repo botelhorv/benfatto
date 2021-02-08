@@ -1,0 +1,16 @@
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\BenFatto.Service.deps.json
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\BenFatto.Service.dll
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\BenFatto.Service.pdb
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\BenFatto.Data.dll
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\BenFatto.Domain.dll
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\Infra.Shared.dll
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\BenFatto.Data.pdb
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\BenFatto.Domain.pdb
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\bin\Debug\netcoreapp3.1\Infra.Shared.pdb
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\obj\Debug\netcoreapp3.1\BenFatto.Service.csprojAssemblyReference.cache
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\obj\Debug\netcoreapp3.1\BenFatto.Service.AssemblyInfoInputs.cache
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\obj\Debug\netcoreapp3.1\BenFatto.Service.AssemblyInfo.cs
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\obj\Debug\netcoreapp3.1\BenFatto.Service.csproj.CoreCompileInputs.cache
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\obj\Debug\netcoreapp3.1\BenFatto.Service.csproj.CopyComplete
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\obj\Debug\netcoreapp3.1\BenFatto.Service.dll
+C:\git\BenFatto\BenFattoTeste\BenFatto.Service\obj\Debug\netcoreapp3.1\BenFatto.Service.pdb

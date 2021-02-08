@@ -1,0 +1,9 @@
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.deps.json
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.dll
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.pdb
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.csprojAssemblyReference.cache
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.AssemblyInfoInputs.cache
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.AssemblyInfo.cs
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.csproj.CoreCompileInputs.cache
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.dll
+C:\git\BenFatto\BenFattoTeste\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.pdb

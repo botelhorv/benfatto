@@ -1,0 +1,76 @@
+<div class="example-container mat-elevation-z8">
+    <h2>Add Logs</h2>
+    <div class="example-loading-shade"
+          *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="button-row">
+      <a mat-flat-button color="primary" [routerLink]="['/logs']"><mat-icon>list</mat-icon></a>
+    </div>
+    <mat-card class="example-card">
+      <form [formGroup]="logsForm" (ngSubmit)="onFormSubmit()">
+        <mat-form-field class="example-full-width">
+          <mat-label>Source IP</mat-label>
+          <input matInput placeholder="Source IP" formControlName="sourceIP">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>Channel</mat-label>
+            <input matInput placeholder="Channel" formControlName="Channel">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <mat-label>User Name</mat-label>
+            <input matInput placeholder="User Name" formControlName="userName">
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <mat-label>Method</mat-label>
+            <input matInput placeholder="Method" formControlName="method"
+                    [errorStateMatcher]="matcher">
+            <mat-error>
+              <span *ngIf="!logsForm.get('method').valid && logsForm.get('method').touched">Please enter Method</span>
+            </mat-error>
+          </mat-form-field>
+        
+        <mat-form-field class="example-full-width">
+          <mat-label>Url</mat-label>
+          <input matInput placeholder="Url" formControlName="url"
+                  [errorStateMatcher]="matcher">
+          <mat-error>
+            <span *ngIf="!logsForm.get('url').valid && logsForm.get('url').touched">Please enter Url</span>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>HttpVersion</mat-label>
+          <input matInput placeholder="Address" formControlName="HttpVersion">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>HttpCode</mat-label>
+          <input matInput placeholder="HttpCode" formControlName="httpCode"
+                  [errorStateMatcher]="matcher">
+          <mat-error>
+            <span *ngIf="!logsForm.get('httpCode').valid && logsForm.get('httpCode').touched">Please enter HttpCode</span>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Port</mat-label>
+          <input matInput type="number" placeholder="Port" formControlName="port">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>UrlDestination</mat-label>
+          <input matInput placeholder="Port" formControlName="urlDestination"
+                  [errorStateMatcher]="matcher">
+          <mat-error>
+            <span *ngIf="!logsForm.get('urlDestination').valid && logsForm.get('urlDestination').touched">Please enter Url of Destination</span>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>BrowserAgent</mat-label>
+          <input matInput placeholder="browserAgent" formControlName="browserAgent">
+        </mat-form-field>
+        
+        <div class="button-row">
+          <button type="submit" mat-flat-button color="primary"><mat-icon>save</mat-icon></button>
+        </div>
+      </form>
+    </mat-card>
+  </div>

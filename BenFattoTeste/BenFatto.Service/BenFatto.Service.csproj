@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BenFatto.Data\BenFatto.Data.csproj" />
+    <ProjectReference Include="..\BenFatto.Domain\BenFatto.Domain.csproj" />
+    <ProjectReference Include="..\Infra.Shared\Infra.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

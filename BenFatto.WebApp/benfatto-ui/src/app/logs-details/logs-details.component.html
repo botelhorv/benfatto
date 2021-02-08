@@ -1,0 +1,46 @@
+<div class="example-container mat-elevation-z8">
+    <h2>Logs Details</h2>
+    <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="button-row">
+      <a mat-flat-button color="primary" [routerLink]="['/logs']"><mat-icon>list</mat-icon></a>
+    </div>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title><h2>{{logs.sourceIP}}</h2></mat-card-title>
+        <mat-card-subtitle>{{logs.userName}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <dl>
+          <dt>Source IP:</dt>
+          <dd><h2>{{logs.sourceIP}}</h2></dd>
+          <dt>Channel:</dt>
+          <dd><h2>{{logs.channel}}</h2></dd>
+          <dt>User Name:</dt>
+          <dd><h2>{{logs.userName}}</h2></dd>
+          <dt>Created:</dt>
+          <dd><h2>{{logs.created}}</h2></dd>
+          <dt>Method:</dt>
+          <dd><h2>{{logs.method}}</h2></dd>
+          <dt>Url:</dt>
+          <dd><h2>{{logs.url}}</h2></dd>
+          <dt>HttpVersion:</dt>
+          <dd><h2>{{logs.httpVersion}}</h2></dd>
+          <dt>HttpCode:</dt>
+          <dd><h2>{{logs.httpCode}}</h2></dd>
+          <dt>Port:</dt>
+          <dd><h2>{{logs.port}}</h2></dd>
+          <dt>UrlDestination:</dt>
+          <dd><h2>{{logs.urlDestination}}</h2></dd>
+          <dt>BrowserAgent:</dt>
+          <dd><h2>{{logs.browserAgent}}</h2></dd>
+        </dl>
+      </mat-card-content>
+      <mat-card-actions>
+        <a mat-flat-button color="primary" [routerLink]="['/edit-logs', logs.id]"><mat-icon>edit</mat-icon> Logs</a>
+        <a mat-flat-button color="warn" (click)="deleteLogs(logs.id)"><mat-icon>delete</mat-icon> Logs</a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
